@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
-@import "reset.css";
-@import "variables.css";
+@import 'reset.css';
+@import 'variables.css';
 
 /* components */
-@import "components/status-bar.css";
+@import 'components/status-bar.css';
+@import 'components/nav-bar.css';
+@import 'components/screen-heaher.css';
 
 /* screens */
-@import "screens/login.css";
-
+@import 'screens/login.css';
 
 body {
   font-family: 'Dongle', sans-serif;
-  font-size: 1.6rem;
 }
