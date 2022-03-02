@@ -2,13 +2,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 30px;
     background-color: #f3f1f1;
     padding: 10px 0px;
 }
 
 #friends-display-link i{
-    font-size: 25px;
+    font-size: 20px;
     margin: 0px 10px;
     color: #696464;
+}
+
+.friends-screen{
+    padding: var(--horizontal-space);
+}
+
+.friends-screen__channel-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.friends-screen__channel-header span{
+    font-size: 25px;
 }
