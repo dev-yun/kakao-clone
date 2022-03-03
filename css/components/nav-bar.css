@@ -19,16 +19,6 @@
 }
 
 .nav__message-count {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: tomato;
-  border-radius: 50%;
-  width: 26px;
-  height: 26px;
-  color: white;
-  font-weight: 600;
-  font-size: 24px;
   position: absolute;
   left: 18px;
   bottom: 23px;
