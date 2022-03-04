@@ -56,6 +56,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
+    padding-bottom: 22px;
+    border-bottom: var(--gray-1px-border);
 }
 
 .open-chat-room__title{
@@ -84,11 +86,43 @@
     margin-right: 5px;
 }
 
-.open-chat-room__img{
+.open-chat-room__photo img{
     width: 90px;
     height: 90px;
     border-radius: 10px;
 }
+
+.open-chat-room__photo{
+    position: relative;
+}
+
+.open-chat-room__photo div{
+    position: absolute;
+    bottom: 12px;
+    right: 6px;
+    background-color: var(--my-gray-color);
+    border-radius: 8px;
+    color: white;
+}
+
+.open-chat-room__photo div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 20px;
+}
+
+.open-chat-room__photo span{
+    font-size: 18px;
+    padding-top: 3px;
+    margin-left: 3px;
+}
+
+.open-chat-room__photo i{
+    font-size:8px;
+}
+
 
 .open-chat-room__members .divider{
     width: 2px;
