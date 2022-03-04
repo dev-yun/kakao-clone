@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Chats</title>
+    <title>Find</title>
 </head>
 
 <body>
@@ -26,44 +26,41 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
+        <h1 class="screen-header__title">Find</h1>
         <div class="screen-header__icons">
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-            <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
-            <span><i class="fa-solid fa-music fa-lg"></i></span>
             <span><i class="fa-solid fa-gear fa-lg"></i></span>
         </div>
     </header>
 
 
     <main class="main-screen">
-        <div class="user-component chat-obj">
-            <div class="user-component__column">
-                <img src="https://www.ghibli.jp/gallery/howl014.jpg" class="user-component__avatar user-component__avatar">
-                <div class="user-component__text">
-                    <h4 class="user-component__name">Yun</h4>
-                    <h6 class="user-component__message">Please check This message~~!</h6>
-                </div>
+        <div class="find-icons">
+            <div class="find-icons__icon">
+                <i class="fa-solid fa-qrcode"></i>
+                <span>QR Code</span>
             </div>
-            <div class="user-component__column">
-                <span>22:21</span>
-                <div class="message-badge">1</div>
+            <div class="find-icons__icon">
+                <i class="fa-regular fa-address-book"></i>
+                <span>Add by Contacts</span>
             </div>
-        </div>
-        <div class="user-component chat-obj">
-            <div class="user-component__column">
-                <img src="https://www.ghibli.jp/gallery/howl005.jpg" class="user-component__avatar user-component__avatar">
-                <div class="user-component__text">
-                    <h4 class="user-component__name">Dev</h4>
-                    <h6 class="user-component__message">Welcome kakao-clone~~</h6>
-                </div>
+            <div class="find-icons__icon">
+                <i class="fa-regular fa-id-badge"></i>
+                <span>Add by ID</span>
             </div>
-            <div class="user-component__column">
-                <span>00:00</span>
-                <div class="message-badge">3</div>
+            <div class="find-icons__icon">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Invite</span>
             </div>
         </div>
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">Recommended Friends</h6>
+            <h5 class="recommended-friends__text">You have no recommended friends.</h5>
+        </div>
+    
     </main>
+
+
 
 
     <nav class="nav">
@@ -72,7 +69,7 @@
             </li>
             <li class="nav__btn"><a class="nav__link" href="chats.html">
                 <span class="nav__message-count message-badge">1</span>
-                <i class="fa-solid fa-comment fa-2x"></i></a></li>
+                <i class="fa-regular fa-comment fa-2x"></i></a></li>
             <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
             </li>
             <li class="nav__btn"><a class="nav__link" href="more.html">
