@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 25%;
+  margin-right: 30px;
 }
 
 .more-suggestions__icons i {
@@ -35,5 +35,16 @@
 }
 
 .more-suggestions__icon span {
-  font-size: 20px;
+  font-size: 25px;
+}
+
+.more-userinfo__phone-number{
+  display: flex;
+  align-items: center;
+}
+
+.more-userinfo__phone-number i{
+  margin-left: 3px;
+  padding-bottom: 2px;
+  color: red
 }

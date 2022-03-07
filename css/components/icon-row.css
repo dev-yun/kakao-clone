@@ -1,7 +1,7 @@
 .icon-row{
     display: flex;
     justify-content: flex-start;
-    font-size: 30px;
+    font-size: 25px;
     border-bottom: var(--gray-1px-border);
     flex-wrap: wrap;
 }
