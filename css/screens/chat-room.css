@@ -1,3 +1,21 @@
 #chat-room-screen {
   background-color: rgba(153, 207, 238, 0.959);
+  height: 10000vh;
+}
+
+#chat-room-screen .alt-header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgba(153, 207, 238, 0.959);
+  z-index: 1;
+}
+
+.status-bar {
+  background-color: rgba(153, 207, 238, 0.959);
+}
+
+.main-chat {
+  margin-top: 70px;
 }

@@ -8,6 +8,7 @@
   box-sizing: border-box;
   font-size: 25px;
   font-weight: 800;
+  z-index: 2;
 }
 .status-bar__column {
   width: 33%;
