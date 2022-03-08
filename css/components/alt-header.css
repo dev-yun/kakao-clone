@@ -3,7 +3,7 @@
   padding: var(--horizontal-space);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .alt-header__title {
@@ -17,4 +17,8 @@
 
 .alt-header__column:last-child {
   margin-left: auto;
+}
+
+.alt-header__column span {
+  padding-left: 10px;
 }
