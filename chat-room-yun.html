@@ -10,7 +10,7 @@
 </head>
 
 <body id="chat-room-screen">
-    <div class="status-bar">
+    <div class="status-bar chat-status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
             <i class="fa-solid fa-wifi"></i>
@@ -40,28 +40,33 @@
         </div>
     </header>
 
-    <main class="main-screen main-chat">
-        <div class="chat__timestamp">
-            Tuesday, June 30, 2020
+    <main class="main-chat">
+        <div class="main-chat__timestamp">
+            Thursday, March 10, 2022
         </div>
+
+        <div class="message-row">
+            <img src="https://www.ghibli.jp/gallery/howl014.jpg">
+            <div class="message-row__content">
+                <span class="message-row__author">Yun</span>
+                <div class="message-row__info">
+                    <span class="message-row__text">Hello!</span>
+                    <span class="message-row__time">23:16</span>
+                </div>                
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message-row__info">
+                    <span class="message-row__text">Nice to meet you!</span>
+                    <span class="message-row__time">00:00</span>
+                </div>                
+            </div>
+        </div>
+
     </main>
 
-
-    
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a>
-            </li>
-            <li class="nav__btn"><a class="nav__link" href="chats.html">
-                <span class="nav__message-count message-badge">1</span>
-                <i class="fa-regular fa-comment fa-2x"></i></a></li>
-            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
-            </li>
-            <li class="nav__btn"><a class="nav__link" href="more.html">
-                <span class="nav__notification"></span>
-                <i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
-        </ul>
-    </nav>
 
     <script src="https://kit.fontawesome.com/c296939159.js" crossorigin="anonymous"></script>
 </body>
