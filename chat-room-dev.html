@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Settings</title>
+    <title>Chat-Room</title>
 </head>
 
-<body>
-    <div class="status-bar">
+<body id="chat-room-screen">
+    <div class="status-bar chat-status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
             <i class="fa-solid fa-wifi"></i>
@@ -40,22 +40,45 @@
         </div>
     </header>
 
+    <main class="main-chat">
+        <div class="main-chat__timestamp">
+            Thursday, March 10, 2022
+        </div>
 
-    
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a>
-            </li>
-            <li class="nav__btn"><a class="nav__link" href="chats.html">
-                <span class="nav__message-count message-badge">1</span>
-                <i class="fa-regular fa-comment fa-2x"></i></a></li>
-            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
-            </li>
-            <li class="nav__btn"><a class="nav__link" href="more.html">
-                <span class="nav__notification"></span>
-                <i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
-        </ul>
-    </nav>
+        <div class="message-row">
+            <img src="https://www.ghibli.jp/gallery/howl005.jpg">
+            <div class="message-row__content">
+                <span class="message-row__author">Dev</span>
+                <div class="message-row__info">
+                    <span class="message-row__text">Hey</span>
+                    <span class="message-row__time">23:16</span>
+                </div>                
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message-row__info">
+                    <span class="message-row__text">Welcome kakao-clone~~</span>
+                    <span class="message-row__time">00:00</span>
+                </div>                
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..">
+            <i class="fa-regular fa-face-smile fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
 
     <script src="https://kit.fontawesome.com/c296939159.js" crossorigin="anonymous"></script>
 </body>
