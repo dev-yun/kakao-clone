@@ -40,7 +40,7 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-color: #109ceb;
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -50,8 +50,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 96px;
 
-  animation: hiddenSplashScreen 0.4s ease-in-out forwards;
-  animation-delay: 1.5s;
+  animation: hiddenSplashScreen 0.5s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+#splash-screen img {
+  width: 80%;
+  height: 40%;
 }
