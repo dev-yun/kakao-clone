@@ -30,7 +30,7 @@
 }
 
 @keyframes hiddenSplashScreen {
-  form {
+  from {
     opacity: 1;
   }
   to {
